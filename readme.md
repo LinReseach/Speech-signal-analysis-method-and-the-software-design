@@ -45,8 +45,21 @@ This project implements a sophisticated speech signal processing system that com
 - Real-time visualization updates
 - File management system
 
-##  File structure
 
 
+## 📁 File Structure
 
-<pre><code>```text 📦 speech-signal-processing/ ├── 📄 LMS.m # LMS adaptive filter implementation ├── 📄 myaudioplayer.m # Audio player GUI with equalizer ├── 📄 rpca_mask_fun.m # RPCA separation algorithm core ├── 📄 stft.m # Short-Time Fourier Transform ├── 📄 stft3d.m # 3D STFT visualization ├── 📄 istft.m # Inverse STFT reconstruction ├── 📄 SVS.m # Singing Voice Separation wrapper ├── 📄 voice_signal_processing.m # Main GUI application ├── 📄 add_noisefile.m # Noise addition utilities ├── 📄 shiyan.m # Experimental scripts and tests ├── 🎥 instruction in video.wmv # A comprehensive video tutorial demonstrating GUI operations └── 📄 README.md # This file ``` </code></pre>
+| File | Description |
+|------|-------------|
+| 📄 `LMS.m` | LMS adaptive filter implementation |
+| 📄 `myaudioplayer.m` | Audio player GUI with equalizer |
+| 📄 `rpca_mask_fun.m` | RPCA separation algorithm core |
+| 📄 `stft.m` | Short-Time Fourier Transform |
+| 📄 `stft3d.m` | 3D STFT visualization |
+| 📄 `istft.m` | Inverse STFT reconstruction |
+| 📄 `SVS.m` | Singing Voice Separation wrapper |
+| 📄 `voice_signal_processing.m` | Main GUI application |
+| 📄 `add_noisefile.m` | Noise addition utilities |
+| 📄 `shiyan.m` | Experimental scripts and tests |
+| 🎥 `instruction in video.wmv` | A comprehensive video tutorial demonstrating GUI operations |
+| 📄 `README.md` | This file |
